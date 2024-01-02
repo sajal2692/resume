@@ -1,0 +1,241 @@
+%-------------------------
+% Resume in Latex
+% Author : Sajal Sharma
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Sajal Sharma} \\ \vspace{1pt}
+    \small +65 9077-9093 $|$ \href{mailto:x@x.com}{\underline{contact@sajalsharma.com}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/sajals}} $|$
+    \href{https://github.com/...}{\underline{github.com/sajal2692}}
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Seasoned Machine Learning Engineer with 7+ years of experience in NLP and Deep Learning. Having led major AI projects throughout Asia, my expertise lies in integrating cutting-edge technologies such as large language models (LLMs) and Generative AI into strategic business initiatives, consistently staying ahead in the realm of AI innovation.}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+    {Lead AI Engineer}{Aug 2023 -- Present}
+    {OneByZero (contracted via Unscrambl)}{Singapore}
+    \resumeItemListStart
+      \resumeItem{Leading the AI engineering team, pioneering solutions with proprietary and open-source LLMs, RAG, vector databases, and techniques such as prompt engineering, chaining, function calling, and agent-based systems.}
+      \resumeItem{Enhanced deal acquisition and client engagement through technical presentations and Generative AI workshops at client sites, contributing to the company's recognition as an AI industry leader.}
+      \resumeItem{Developed an LLM-powered chatbot POC for a major Philippine bank, showcased at the Singapore Fintech Festival. Utilized AWS infrastructure, including Bedrock, Sagemaker, and Opensearch.}
+      \resumeItem{Transformed a major appliance retailer's data extraction process by implementing LLMs for automation, reducing product data entry time from 2 hours to 15 minutes, greatly enhancing e-commerce efficiency and accuracy.}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+    {Senior AI Engineer}{Jan 2023 -- Aug 2023}
+    {Splore, a Temasek backed AI startup (contracted via Unscrambl)}{Singapore}
+    \resumeItemListStart
+      \resumeItem{Spearheaded enhancements in user search experience, reducing incorrect query responses by 50\% and boosting user engagement, while collaborating with cross-functional teams to align AI development with business goals.}
+      \resumeItem{Developed a question-answering system for queries about current affairs using Langchain, GPT model and Bing Search, which tripled user engagement and number of daily queries.}
+      \resumeItem{Enhanced Vespa search engine performance, improving the Mean Average Precision (MAP) metric from 0.3 to 0.8 by refining ranking algorithms and integrating keyword with semantic search using vector embeddings.}
+    \resumeItemListEnd
+  
+    \resumeSubheading
+      {Senior Machine Learning Engineer}{Apr 2020 -- Dec 2022}
+      {Unscrambl}{India}
+      \resumeItemListStart
+      \resumeItem{Key member of Unscrambl's NLP Engineering team, helping enhance the natural language understanding of their business analytics platform. Focused on advancing NER, intent recognition, and ANNOY model functionalities.}
+        \resumeItem{Developed the NL to SQL system data preparation pipeline using NLTK and spaCy, cutting over 5 hours of manual effort daily and boosting system efficiency.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Machine Learning Engineer}{Aug 2017 -- Apr 2020}
+      {Unscrambl}{India}
+      \resumeItemListStart
+        \resumeItem{Led the design \& deployment of chatbot solutions for clients across Asia, significantly impacting over 100,000 monthly users. 
+        Utilized Microsoft Bot Framework and Azure AI Services for NLU and dialog management.}
+    \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
+    %   {Southwestern University}{Georgetown, TX}
+    %   \resumeItemListStart
+    %     \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
+    %     \resumeItem{Developed a game in Java to test the generated dungeons}
+    %     \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
+    %     \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
+    %     \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
+    %     \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+    %   \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {The University of Melbourne}{Melbourne, Australia}
+      {Master of Information Technology, Major in Computing}{Aug 2014 -- Aug 2016}
+    \resumeSubheading
+      {Bharatiya Vidyapeeth University}{New Delhi, India}
+      {Bacher of Computer Applications}{Jul 2010 -- Jul 2013}
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python (Fluent), SQL (Proficient), Javascript (Proficient), Ruby (Familiar) } \\
+     \textbf{AI \& ML Technologies}{: Huggingface, Sentence Transformers, Pytorch, GPT, Claude, llama, Langchain, BERT, SpaCy, NLTK} \\
+     \textbf{Tools \& Frameworks}{: Git, Docker, AWS, Google Cloud Platform, Opensearch, Vespa, Pinecone, VsCode, Unix} \\
+    }}
+ \end{itemize}
+
+%-----------ACTIVITIES-----------
+\section{Activities}
+\resumeItemListStart
+\resumeItem{\textbf{Mentor \& Project Reviewer, Udacity}{: Coached 100+ international students enrolled in Data
+Science courses. Recognised as an elite mentor in 2021 with A+ mentor performance grade based on student feedback scores.} \\}
+\resumeItem{\textbf{Mentor, STEM Industry Mentoring Programme, The University of Melbourne}{: Jul 2020 - Present\\}}
+\resumeItem{\textbf{Creator, Data Science Portfolio}{: Github repo with 900+ stars showcasing various classical Data Science projects.} \\}
+\resumeItemListEnd
+
+%-----------CERTIFICATIONS-----------
+% \section{Certifications}
+% \resumeItemListStart
+%   \resumeItem{Natural Language Processing Nanodegree, Udacity}
+%   \resumeItem{Deep Learning Specialization, DeepLearning.AI}
+%   \resumeItem{Machine Learning Nanodegree, Udacity}
+% \resumeItemListEnd
+
+%-----------PROJECTS-----------
+% \section{Projects}
+%     \resumeSubHeadingListStart
+%       \resumeProjectHeading
+%           {\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
+%           \resumeItemListStart
+%             \resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
+%             \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
+%             \resumeItem{Visualized GitHub data to show collaboration}
+%             \resumeItem{Used Celery and Redis for asynchronous tasks}
+%           \resumeItemListEnd
+%       \resumeProjectHeading
+%           {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
+%           \resumeItemListStart
+%             \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
+%             \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
+%             \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
+%             \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+%           \resumeItemListEnd
+%     \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
