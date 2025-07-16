@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1706357660 "/Users/sajal/Documents/career/resumes/resume_ai_tex/resume.tex" "resume.pdf" "resume" 1706357660 0
-  "/Users/sajal/Documents/career/resumes/resume_ai_tex/resume.tex" 1706357659 10806 18a7083cc91f60d3be4a7a5592fe8328 ""
+["pdflatex"] 1752661657 "/Users/sajal/Documents/career/resumes/resume_ai_tex/resume.tex" "resume.pdf" "resume" 1752661657 0
+  "/Users/sajal/Documents/career/resumes/resume_ai_tex/resume.tex" 1752661656 10817 ceaab51f372f14a27c1972e3a5ec608f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -91,9 +91,9 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1702563384 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1702563349 7883458 7c141a0ebe8e1e46702c2aa094a4d986 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "resume.aux" 1706357660 1184 4b13740b8f911085671ae57d367b845f "pdflatex"
-  "resume.out" 1706357660 546 71c84c35e7df3613c61060be2a6e7438 "pdflatex"
-  "resume.tex" 1706357659 10806 18a7083cc91f60d3be4a7a5592fe8328 ""
+  "resume.aux" 1752661657 1199 cc9c41fc92126bd2f68bb21ea51961aa "pdflatex"
+  "resume.out" 1752661657 625 8373a0d769b4b655c4c189998c370f02 "pdflatex"
+  "resume.tex" 1752661656 10817 ceaab51f372f14a27c1972e3a5ec608f ""
   (generated)
   "resume.aux"
   "resume.log"
