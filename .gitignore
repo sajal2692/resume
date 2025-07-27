@@ -7,7 +7,7 @@
 ehthumbs.db
 Thumbs.db
 
-# LaTeX
+# LaTeX auxiliary files
 *.aux
 *.bbl
 *.blg
@@ -30,6 +30,14 @@ Thumbs.db
 *.alg
 *.glsdefs
 
+# Resume-specific auxiliary files
+resume*.aux
+resume*.log
+resume*.out
+resume*.fdb_latexmk
+resume*.fls
+resume*.synctex.gz
+
 # IDEs
 .vscode/
 .idea/
@@ -40,3 +48,8 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Private environment and outputs
+.env.local
+resume-private.pdf
+resume-private.png
